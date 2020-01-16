@@ -1,5 +1,7 @@
-x=int(input("Enter 1st digit: "))
-y=int(input("Enter 2nd digit: "))
+ip=input("Enter Digit ")
+ip=ip.split(',')
+x=int(ip[0])
+y=int(ip[1])
 arr=[]
 for l in range(x):
     ls=[]
