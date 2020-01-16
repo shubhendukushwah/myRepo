@@ -17,7 +17,7 @@ def sqr_fun(*i):
 	c=50
 	h=30
 	for x in i:
-		ans=ans+str((int(math.sqrt((2*c*x)/h))))
+		ans=ans+str(round(math.sqrt((2*c*x)/h)))
 		if x!=i[len(i)-1]:
 			ans=ans+','
 	return ans
